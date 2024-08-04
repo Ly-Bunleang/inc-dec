@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-show{
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    color: gray;
+}
+
+
+.all-btn{
+    display: flex;
+    gap: 2rem;
+}
+
+.all-btn .btn-inc{
+    background-color: dodgerblue;
+    border: none;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.all-btn .btn-inc:active{
+    background-color: rgb(39, 95, 151);
+}
+
+.all-btn .btn-dec{
+    background-color: orange;
+    border: none;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.all-btn .btn-dec:active{
+    background-color: rgb(180, 130, 37);
+}
+
+.all-btn .btn-reset{
+    background-color: red;
+    border: none;
+    padding: 20px 30px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.all-btn .btn-reset:active{
+    background-color: rgb(141, 38, 38);
+}
+
+@media screen and (max-width: 900px){
+
+    .box-show{
+        font-size: 100px;
+        margin-bottom: 50px;
+    }
+
+    .all-btn{
+        gap: 1rem;
+    }
+
+    .all-btn .btn-inc{
+        padding: 18px 20px;
+        font-size: 16px;
+    }
+
+    .all-btn .btn-dec{
+        padding: 18px 20px;
+        font-size: 16px;
+    }
+
+    .all-btn .btn-reset{
+        padding: 18px 20px;
+        font-size: 16px;
+    }
+
+
+
+}
